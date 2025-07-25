@@ -19,3 +19,17 @@ let carro = {
 }
 
 carro.buzinar();
+
+
+// usando mais de um metodo na mesma função
+let moto = {
+    acelerar: function(){
+        console.log("rapido");
+    },
+        rapido: function(){
+            alert("perigoso");
+        }
+    }
+
+    moto.acelerar();
+    moto.rapido()
