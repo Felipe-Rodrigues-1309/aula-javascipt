@@ -1,0 +1,1 @@
+console.log(30 * "Nao é numero"); /* opecao NAN sempre que for feito comparacao diferentes sera exibido NAN */
