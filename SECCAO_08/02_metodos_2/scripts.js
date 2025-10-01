@@ -21,6 +21,7 @@ const cachoro = {
     // Porém, há um erro de sintaxe: return "" . this.raca;
     // O correto seria: return this.raca;
     getRaca: function(){
+        
         return this.raca;
     }
 }
